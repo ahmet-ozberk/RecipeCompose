@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Tarifler Compose</string>
+    <string name="fileprovider">com.tarifler.compose</string>
+</resources>
