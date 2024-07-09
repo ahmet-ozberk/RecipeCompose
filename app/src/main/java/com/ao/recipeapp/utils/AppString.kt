@@ -53,4 +53,5 @@ object AppString {
     val deleteAccount = "Hesabı Sil"
     val delete = "Sil"
     val recipeDetailTitle = "Tarif Detayı"
+    val close = "Kapat"
 }
