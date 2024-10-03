@@ -25,6 +25,7 @@ import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeContent
 import androidx.compose.foundation.layout.size
@@ -180,12 +181,11 @@ fun NewRecipeScreen(
                         .shadow(elevation = 20.dp, shape = RectangleShape)
                         .background(Color.White)
                         .padding(20.dp)
-
                 ) {
                     AppButton(onClick = { /*TODO*/ }, text = AppString.saveMyRecipe)
                 }
-            }) {
-                Column(modifier = Modifier.padding(it)) {
+            }) { innerPadding ->
+                Column(modifier = Modifier.padding(innerPadding).imePadding()) {
                     TitleBar(navController)
                     if (hasPermission) {
                         Column(
