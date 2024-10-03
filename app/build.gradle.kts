@@ -87,7 +87,10 @@ dependencies {
     implementation(libs.lifecycle)
     implementation(libs.androidx.runtime.livedata)
 
-    // Exoplayer
+    // Video Player
     implementation(libs.exoplayer)
     implementation(libs.exoplayer.ui)
+    implementation(libs.exoplayer.session)
+    implementation(libs.sanghun.video)
+
 }
