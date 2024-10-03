@@ -47,7 +47,6 @@ exoplayer-session = { module = "androidx.media3:media3-session", version.ref = "
 exoplayer-ui = { module = "androidx.media3:media3-ui", version.ref = "exoplayer" }
 sanghun-video = { module = "io.sanghun:compose-video", version.ref = "sanghunVideo" }
 
-
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
